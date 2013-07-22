@@ -59,6 +59,14 @@ ul#initial-focus h3 {
   font-style: italic;
 }
 
+ul#initial-focus a {
+  color: #646461;
+}
+
+ul#initial-focus a:hover {
+  color: #242420;
+}
+
 ul#initial-focus li {
   list-style-type: none;
   background-color: #fafaf7;
