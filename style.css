@@ -1,0 +1,124 @@
+/*
+Theme Name: Better Legislating
+Theme URI: 
+Description: A starter/parent theme designed for use with bower/grunt/yeoman
+Author: sethvincent
+Author URI: http://superbigtree.com/
+Template: boword
+Version: 1.0
+
+License: MIT
+License URI:
+
+*/
+
+@import url("../boword/style.css");
+
+
+img#site-logo {
+  margin: 50px auto;
+  display: block;
+}
+
+h2#consumer-reports,
+h3#goal {
+  text-align: center;
+}
+
+h2#consumer-reports {
+  font-size: 50px;
+  font-weight: 100;
+}
+
+h2#consumer-reports .legislators {
+  font-weight: 300;
+}
+
+h3#goal {
+  font-size: 60px;
+  font-weight: 300;
+  color: #5473b8;
+  margin-top: 40px;
+}
+
+div#main-message {
+  font-size: 20px;
+  text-align: center;
+  margin: 30px 0px;
+  color: #646461;
+}
+
+ul#initial-focus {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+ul#initial-focus h3 {
+  font-size: 20px;
+  font-style: italic;
+}
+
+ul#initial-focus li {
+  list-style-type: none;
+  background-color: #fafaf7;
+  padding: 10px 20px 8px 20px;
+  margin: 8px auto;
+  width: 400px;
+  display: block;
+  font-size: 20px;
+  color: #646462;
+}
+
+h3#about-ibl {
+  margin-top: 80px;
+}
+
+h3#who {
+  margin-top: 50px;
+}
+
+p#who-intro {
+  font-size: 19px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h3#about-ibl,
+h3#who {
+  font-size: 30px;
+  font-weight: 300;
+  color: #646462;
+  text-align: center;
+}
+
+.team-member {
+  width: 200px;
+  float: left;
+  margin-left: 125px;
+}
+
+.team-member img {
+  width: 190px;
+  height: auto;
+}
+
+ul#recent-posts {
+  margin-top: 80px;
+  clear: both;
+}
+
+/* tablet size */
+@media only screen and (min-width: 600px) {
+  .container {
+    width: 540px;
+    padding: 0px 20px;
+  }
+}
+
+/* desktop size */
+@media only screen and (min-width: 960px) {
+  .container {
+    width: 800px;
+  }
+}
