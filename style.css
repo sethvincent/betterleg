@@ -48,7 +48,8 @@ div#main-message {
   color: #646461;
 }
 
-ul#initial-focus {
+ul#initial-focus,
+ul#recent-posts {
   margin: 0px;
   padding: 0px;
   text-align: center;
@@ -67,7 +68,8 @@ ul#initial-focus a:hover {
   color: #242420;
 }
 
-ul#initial-focus li {
+ul#initial-focus li,
+ul#recent-posts li {
   list-style-type: none;
   background-color: #fafaf7;
   padding: 10px 20px 8px 20px;
