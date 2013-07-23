@@ -17,7 +17,7 @@
 
       
       <ul id="recent-posts">
-      <h2>Recent Posts</h2>
+      <h3 id="recent">Recent Posts</h3>
       <?php
         $args = array( 'numberposts' => '3' );
         $recent_posts = wp_get_recent_posts( $args );

@@ -93,7 +93,8 @@ p#who-intro {
 }
 
 h3#about-ibl,
-h3#who {
+h3#who,
+h3#recent {
   font-size: 30px;
   font-weight: 300;
   color: #646462;
@@ -113,6 +114,7 @@ h3#who {
 
 ul#recent-posts {
   margin-top: 80px;
+  padding-top: 80px;
   clear: both;
 }
 
