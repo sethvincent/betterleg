@@ -25,6 +25,7 @@
           echo '<li><a href="' . get_permalink($recent["ID"]) . '" title="Look '.esc_attr($recent["post_title"]).'" >' .   $recent["post_title"].'</a> </li> ';
         }
       ?>
+      <p id="blog-link"><b><a href="/blog">Visit our blog for more.</a></b></p>
       </ul>
     </div>
   </div><!-- /.container -->
