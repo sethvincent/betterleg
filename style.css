@@ -172,6 +172,12 @@ h2.recent {
 
 }
 
+.back-blog {
+  font-size: 0.7em;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
 footer {
   margin-top: 50px;
   padding: 30px 0px;
