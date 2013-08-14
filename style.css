@@ -86,20 +86,24 @@ h3.focus {
 ul#initial-focus a,
 ul#recent-posts a {
   color: #646461;
+  background-color: #fafaf3;
+  padding: 20px 25px 20px 25px;
+  margin: 8px auto;
+  width: 400px;
+  display: block;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
 ul#initial-focus a:hover,
 ul#recent-posts a:hover {
   color: #242420;
+  background-color: #eaeae6;
 }
 
 ul#initial-focus li,
 ul#recent-posts li {
   list-style-type: none;
-  background-color: #fafaf7;
-  padding: 10px 20px 8px 20px;
-  margin: 8px auto;
-  width: 400px;
   display: block;
   font-size: 20px;
   color: #646462;
