@@ -76,9 +76,11 @@ ul#recent-posts {
   text-align: center;
 }
 
-ul#initial-focus h3 {
+h3.focus {
   font-size: 20px;
   font-style: italic;
+  text-align: center;
+  padding-bottom: 5px;
 }
 
 ul#initial-focus a,
