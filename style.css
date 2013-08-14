@@ -16,8 +16,29 @@ License URI:
 
 
 img#site-logo {
-  margin: 50px auto;
+  margin: 50px auto 40px auto;
   display: block;
+}
+
+ul#main-nav {
+  margin: 0px 0px 40px 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+ul#main-nav li {
+  display: inline-block;
+}
+
+ul#main-nav li a {
+  padding: 8px 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #999;
+}
+
+ul#main-nav li a:hover {
+  color: #333;
 }
 
 h2#consumer-reports,
